@@ -1,0 +1,269 @@
+/* General Styles */
+html{
+    scroll-behavior:smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0a66c2;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Main Section */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #0a66c2;
+}
+
+section p {
+    line-height: 1.8;
+}
+.hero {
+    text-align: center;
+}
+
+.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #0a66c2;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #0a66c2;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004182;
+}
+#education {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.education-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #0a66c2;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.education-box h3 {
+    color: #0a66c2;
+    margin-top: 0;
+}
+#skills {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+}
+#education {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.education-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #0a66c2;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.education-box h3 {
+    color: #0a66c2;
+    margin-top: 0;
+}
+#skills {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+}
+#projects {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.project-box {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #0a66c2;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-box h3 {
+    color: #0a66c2;
+}
+#projects {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.project-box {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #0a66c2;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-box h3 {
+    color: #0a66c2;
+}
+#achievements {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.achievement-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #0a66c2;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.achievement-box h3 {
+    color: #0a66c2;
+}
+#contact {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.contact-box {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #0a66c2;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact-box p {
+    margin: 10px 0;
+}
+footer{
+    background:#0a66c2;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode section,
+.dark-mode .education-box,
+.dark-mode .project-box,
+.dark-mode .certificate-box,
+.dark-mode .achievement-box,
+.dark-mode .contact-box {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode footer {
+    background-color: black;
+}
+
+.dark-mode header {
+    background-color: black;
+}
+#topBtn{
+display:none;
+position:fixed;
+bottom:20px;
+right:20px;
+background:#0a66c2;
+color:white;
+border:none;
+padding:12px 18px;
+border-radius:50%;
+cursor:pointer;
+font-size:18px;
+}
+
+#topBtn:hover{
+background:#004182;
+}
